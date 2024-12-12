@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<ItemGroup>
+		<!--<PackageReference Include="Azure.AI.OpenAI" Version="2.1.0-beta.1" />-->
+		<PackageReference Include="Microsoft.Extensions.AI" Version="9.0.1-preview.1.24570.5" />
+		<PackageReference Include="OpenAI" Version="2.1.0" />
+		<PackageReference Include="CoreCLR-NCalc" Version="3.1.253" />
+		<PackageReference Include="Microsoft.SemanticKernel" Version="1.32.0" />
+		<PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.32.0" />
+		<PackageReference Include="NAudio" Version="2.2.1" />
+		
+	</ItemGroup>
+</Project>
